@@ -11,13 +11,19 @@ A shell scripts to print some stars to your terminal. Use with lolcat for maximu
 
 To install the script, first clone this repo using:
 
-```
+```bash
 git clone https://github.vom/rwithik/stars.sh
 ```
 
 Then:
-```
+```bash
 cd stars.sh
 sudo make install
 ```
 
+### Uninstalling
+
+```bash
+cd stars.sh
+sudo make uninstall
+```
