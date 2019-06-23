@@ -1,5 +1,7 @@
 A shell scripts to print some stars to your terminal. Use with lolcat for maximum funkyness!
 
+![](./screenshot.png)
+
 #### Options:
     -h              : Display this help text.
     -c ch           : Use [ch] instead of stars.
