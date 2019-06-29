@@ -14,7 +14,7 @@ A shell scripts to print some stars to your terminal. Use with lolcat for maximu
 To install the script, first clone this repo using:
 
 ```bash
-git clone https://github.vom/rwithik/stars.sh
+git clone https://github.com/rwithik/stars.sh
 ```
 
 Then:
