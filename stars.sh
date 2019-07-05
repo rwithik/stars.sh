@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 usage(){
 	printf "stars.sh: A shell scripts to print some stars to your terminal. Use with lolcat for maximum funkyness!\n"

@@ -29,3 +29,8 @@ sudo make install
 cd stars.sh
 sudo make uninstall
 ```
+### Running
+
+```bash
+stars
+```

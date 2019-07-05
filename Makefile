@@ -1,3 +1,4 @@
+SCRIPT_NAME = stars
 SCRIPT = stars.sh
 PREFIX = /usr/local
 DESTDIR =
@@ -10,8 +11,8 @@ install:
 	test -d $(INSTDIR) || mkdir -p $(INSTDIR)
 	test -d $(INSTBIN) || mkdir -p $(INSTBIN)
 	
-	install -m 0755 $(SCRIPT) $(INSTBIN)
+	install -m 0755 $(SCRIPT) $(INSTBIN)/$(SCRIPT_NAME)
 
 .PHONY: uninstall
 uninstall:
-	$(RM) $(INSTBIN)/$(SCRIPT)
+	$(RM) $(INSTBIN)/$(SCRIPT_NAME)
